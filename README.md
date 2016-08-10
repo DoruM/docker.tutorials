@@ -26,6 +26,7 @@ Each subdirectory contains a scenario listed below and provides instructions on 
 * HTTP Proxy - example coming soon.
 * High Availability and Clustering - example coming soon.
 * KWIC ([Kaazing WebSocket Intercloud Connect](http://kaazing.com/kwic/)) - example coming soon  ![EE]
+* [TURN and Kaazing](coturn) 
 
 **Note:** ![EE] marks demos that require the Kaazing WebSocket Gateway - Enterprise Edition.
 

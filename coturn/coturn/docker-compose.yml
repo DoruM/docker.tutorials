@@ -1,0 +1,10 @@
+version: '2'
+services:
+  gateway:
+    build: gateway
+    ports:
+      - "8000:8000"
+    hostname: "kaazing.example.com"
+  coturn:
+    image:  kaazing/3rd-party:coturn
+    entrypoint: ["/usr/bin/turnserver", "--no-cli" , "-v", "--use-auth-secret", "--static-auth-secret=shared_secret_string"]
